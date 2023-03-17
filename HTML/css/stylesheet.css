@@ -3657,7 +3657,7 @@ input:-internal-autofill-selected {
   color: #4DC3FA;
 }
 
-/* .tableCon h2 {
+.tableCon h2 {
   font-size:1em; 
   font-weight: 300;
   text-align: center;
@@ -3665,14 +3665,14 @@ input:-internal-autofill-selected {
   line-height:1em;
   padding-bottom: 2em;
   color: #FB667A;
-} */
+} 
 
-/* .tableCon h2 a {
+.tableCon h2 a {
   font-weight: 700;
   text-transform: uppercase;
   color: #FB667A;
   text-decoration: none;
-} */
+}
 
 .blue { color: #185875; }
 .yellow { color: #FFF842; }
@@ -3744,7 +3744,7 @@ input:-internal-autofill-selected {
   transition-timing-function: line;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
 }
