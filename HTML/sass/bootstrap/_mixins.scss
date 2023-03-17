@@ -1,43 +1,31 @@
-// Toggles
-//
-// Used in conjunction with global variables to enable certain theme features.
+//---------- @mixins ----------//
 
-// Vendor
-@import "vendor/rfs";
+@mixin box-shadow($val...) {
+	-webkit-box-shadow: ($val);
+	box-shadow: ($val);
+}
 
-// Deprecate
-@import "mixins/deprecate";
+@mixin transition($val...) {
+	-webkit-transition: ($val);
+	transition: ($val);
+}
 
-// Helpers
-@import "mixins/breakpoints";
-@import "mixins/color-scheme";
-@import "mixins/image";
-@import "mixins/resize";
-@import "mixins/visually-hidden";
-@import "mixins/reset-text";
-@import "mixins/text-truncate";
+@mixin translateY($val...) {
+	-webkit-transform: translateY($val);
+	transform: translateY($val);
+}
 
-// Utilities
-@import "mixins/utilities";
+@mixin translateX($val...) {
+	-webkit-transform: translateX($val);
+	transform: translateX($val);
+}
 
-// Components
-@import "mixins/alert";
-@import "mixins/backdrop";
-@import "mixins/buttons";
-@import "mixins/caret";
-@import "mixins/pagination";
-@import "mixins/lists";
-@import "mixins/list-group";
-@import "mixins/forms";
-@import "mixins/table-variants";
+@mixin rotate($val){
+	-webkit-transform: rotate($val);
+	transform: rotate($val);
+}
 
-// Skins
-@import "mixins/border-radius";
-@import "mixins/box-shadow";
-@import "mixins/gradients";
-@import "mixins/transition";
-
-// Layout
-@import "mixins/clearfix";
-@import "mixins/container";
-@import "mixins/grid";
+@mixin scale($val){
+	-webkit-transform: scale($val);
+	transform: scale($val);
+}
